@@ -1,0 +1,25 @@
+HELP.md
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+/.idea_modules/
+
+# Gradle
+build/
+.gradle/
+
+# Kotlin
+*.class
+*.jar
+
+# Logs
+logs/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
