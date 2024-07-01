@@ -1,10 +1,10 @@
 package com.tier2.exerciseapi.service
 
+import com.tier2.fitness.common.repository.UserRepository
 import com.tier2.exerciseapi.entity.Favourite
 import com.tier2.exerciseapi.model.ExerciseSummary
 import com.tier2.exerciseapi.repository.ExerciseRepository
 import com.tier2.exerciseapi.repository.FavouriteRepository
-import com.tier2.exerciseapi.repository.UserRepository
 import jakarta.persistence.EntityNotFoundException
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

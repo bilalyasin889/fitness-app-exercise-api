@@ -1,6 +1,7 @@
 package com.tier2.exerciseapi.entity
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.tier2.fitness.common.entity.User
 import jakarta.persistence.*
 
 @Entity

@@ -1,7 +1,7 @@
 package com.tier2.exerciseapi.controller
 
+import com.tier2.fitness.common.service.TokenService
 import com.tier2.exerciseapi.service.FavouriteService
-import com.tier2.exerciseapi.service.TokenService
 import jakarta.persistence.EntityNotFoundException
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

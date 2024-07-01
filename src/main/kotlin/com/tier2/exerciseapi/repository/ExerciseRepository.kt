@@ -5,8 +5,9 @@ import com.tier2.exerciseapi.model.ExerciseInfo
 import com.tier2.exerciseapi.model.ExerciseSummary
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.CrudRepository
+import org.springframework.stereotype.Repository
 
-
+@Repository
 interface ExerciseRepository : CrudRepository<Exercise, Int> {
 
     @Query(
